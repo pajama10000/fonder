@@ -40,7 +40,7 @@ window.addEventListener("load", () => {
 })
 
 function onPlayerCountUpdate() {
-    document.getElementById("#jointoday").innerHTML = `Join ${PLAYER_COUNT} players now on LegacyMC`
+    document.getElementById("#jointoday").innerHTML = `Join ${PLAYER_COUNT} players now on FireVanilla`
 }
 
 const updatePlayercount = (ip, port) => {
@@ -56,7 +56,7 @@ const updatePlayercount = (ip, port) => {
         updatePlayercount("FireVanilla.net", 25565);
     }, 30000)
 };
-updatePlayercount("legacymc.net", 25565);
+updatePlayercount("FireVanilla.net", 25565);
 
 $(window).scroll(function () {
 
