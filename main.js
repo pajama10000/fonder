@@ -27,7 +27,7 @@ window.addEventListener("load", () => {
             copy.style.top = "0";
             copy.setAttribute("id", "ta");
             document.body.appendChild(copy);
-            copy.textContent = "legacymc.net";
+            copy.textContent = "pvphub.me";
             copy.select();
             document.execCommand("copy");
             setTimeout(() => {
@@ -53,10 +53,10 @@ const updatePlayercount = (ip, port) => {
         }
     });
     setTimeout(() => {
-        updatePlayercount("FireVanilla.net", 25565);
+        updatePlayercount("pvphub.me", 25565);
     }, 30000)
 };
-updatePlayercount("FireVanilla.net", 25565);
+updatePlayercount("pvphub.me", 25565);
 
 $(window).scroll(function () {
 
