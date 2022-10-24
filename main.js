@@ -53,7 +53,7 @@ const updatePlayercount = (ip, port) => {
         }
     });
     setTimeout(() => {
-        updatePlayercount("legacymc.net", 25565);
+        updatePlayercount("FireVanilla.net", 25565);
     }, 30000)
 };
 updatePlayercount("legacymc.net", 25565);
