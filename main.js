@@ -20,7 +20,7 @@ window.addEventListener("load", () => {
         link.addEventListener("click", (e) => {
             if (link.innerHTML === "Copied IP") return;
             var before = link.innerHTML;
-            link.innerHTML = "Copied IP"
+            link.innerHTML = "LMAO dont join this dog shit server"
             let copy = document.createElement("textarea");
             copy.style.position = "absolute";
             copy.style.left = "-99999px";
@@ -40,7 +40,7 @@ window.addEventListener("load", () => {
 })
 
 function onPlayerCountUpdate() {
-    document.getElementById("#jointoday").innerHTML = `Join ${PLAYER_COUNT} players now on FireVanilla`
+    document.getElementById("#jointoday").innerHTML = `Join ${PLAYER_COUNT} players now on PornHub`
 }
 
 const updatePlayercount = (ip, port) => {
