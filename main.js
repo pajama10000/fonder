@@ -40,7 +40,7 @@ window.addEventListener("load", () => {
 })
 
 function onPlayerCountUpdate() {
-    document.getElementById("#jointoday").innerHTML = `Join ${PLAYER_COUNT} players now on PornHub`
+    document.getElementById("#jointoday").innerHTML = `Join ${PLAYER_COUNT} players now on PvPHub`
 }
 
 const updatePlayercount = (ip, port) => {
@@ -53,10 +53,10 @@ const updatePlayercount = (ip, port) => {
         }
     });
     setTimeout(() => {
-        updatePlayercount("pvplegacy.net", 25565);
+        updatePlayercount("PvPHub.me", 25565);
     }, 30000)
 };
-updatePlayercount("pvplegacy.net", 25565);
+updatePlayercount("PvPHub.me", 25565);
 
 $(window).scroll(function () {
 
